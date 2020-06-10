@@ -1,0 +1,6 @@
+1. Changed initialise in BasicCheat so that it uses deal() from the class Deck.
+2. Added a method to Player to get the players strategy called getStrategy().
+3. Changed playTurn() in BasicCheat to include a method to reset ThinkerStrategy and MyStrategys'
+   discard counter when cheat has been called.
+4. Added a line to playTurn() in BasicCheat to output the players strategy
+5. Added a method in BasicCheat() in BasicCheat to give varying strategies to players
